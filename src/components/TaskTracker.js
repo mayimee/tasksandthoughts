@@ -53,7 +53,7 @@ function TaskTracker() {
                     handleDelete={handleDelete}
                 />
             </div>
-            <div>
+            <div className="tableDiv">
                 <TaskList taskList={taskEntry}/>
             </div>
         </div>

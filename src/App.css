@@ -47,6 +47,7 @@
   float: left;
   border: 3px dashed blueviolet;
   background-color: lightyellow;
+  height: 550px
 }
 
 table, tr, th, td
@@ -55,8 +56,13 @@ table, tr, th, td
   width: 100%;
   padding: 8px;
   background-color: lightpink;
-  
   font-family: 'Gochi Hand', cursive;
+}
+
+.tableDiv
+{
+  overflow-y: scroll;
+  height: 200px;
 }
 
 *
@@ -79,7 +85,6 @@ table, tr, th, td
 
   button
   {
-    display: flex;
     width: 100%;
     text-align: center;
   }
@@ -106,5 +111,10 @@ h2
 body
 {
   background-image: url("/src/bg.jpg");
+}
+
+button
+{
+  width: 100%;
 }
 

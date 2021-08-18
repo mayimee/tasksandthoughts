@@ -52,7 +52,7 @@ function ThoughtsTracker() {
                     handleDelete = {handleDelete}
                 />
             </div>
-            <div>
+            <div className="tableDiv">
                 <ThoughtsList thoughtsList={thoughtsEntry}/>
             </div>
         </div>
