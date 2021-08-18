@@ -69,7 +69,18 @@ table, tr, th, td
   {
     float: none;
     width: 100%;
-    padding: 5px;
+    margin: 10px;
+  }
+
+  textarea
+  {
+    width: 100%;
+  }
+
+  button
+  {
+    display: flex;
+    width: 80%;
   }
 }
 
@@ -95,3 +106,4 @@ body
 {
   background-image: url("/src/bg.jpg");
 }
+
