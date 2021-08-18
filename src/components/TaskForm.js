@@ -6,7 +6,7 @@ const TaskForm = ({subDate, subTask, handleDate, handleTask, handleSubmit, handl
     return (
         <div>
 
-            <h2>To do lists!</h2>
+            <h2>To do lists!!</h2>
 
             <form>
                 <div className="row">
