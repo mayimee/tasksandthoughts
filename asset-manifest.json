@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/tasksandthoughts/static/css/main.b258fb27.chunk.css",
+    "main.js": "/tasksandthoughts/static/js/main.96009a1d.chunk.js",
+    "main.js.map": "/tasksandthoughts/static/js/main.96009a1d.chunk.js.map",
+    "runtime-main.js": "/tasksandthoughts/static/js/runtime-main.7e94ae6c.js",
+    "runtime-main.js.map": "/tasksandthoughts/static/js/runtime-main.7e94ae6c.js.map",
+    "static/css/2.983f79de.chunk.css": "/tasksandthoughts/static/css/2.983f79de.chunk.css",
+    "static/js/2.298f973b.chunk.js": "/tasksandthoughts/static/js/2.298f973b.chunk.js",
+    "static/js/2.298f973b.chunk.js.map": "/tasksandthoughts/static/js/2.298f973b.chunk.js.map",
+    "static/js/3.3bba5a0a.chunk.js": "/tasksandthoughts/static/js/3.3bba5a0a.chunk.js",
+    "static/js/3.3bba5a0a.chunk.js.map": "/tasksandthoughts/static/js/3.3bba5a0a.chunk.js.map",
+    "index.html": "/tasksandthoughts/index.html",
+    "static/css/2.983f79de.chunk.css.map": "/tasksandthoughts/static/css/2.983f79de.chunk.css.map",
+    "static/css/main.b258fb27.chunk.css.map": "/tasksandthoughts/static/css/main.b258fb27.chunk.css.map",
+    "static/js/2.298f973b.chunk.js.LICENSE.txt": "/tasksandthoughts/static/js/2.298f973b.chunk.js.LICENSE.txt",
+    "static/media/App.css": "/tasksandthoughts/static/media/bg.1f341e81.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.7e94ae6c.js",
+    "static/css/2.983f79de.chunk.css",
+    "static/js/2.298f973b.chunk.js",
+    "static/css/main.b258fb27.chunk.css",
+    "static/js/main.96009a1d.chunk.js"
+  ]
+}
