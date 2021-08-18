@@ -6,7 +6,7 @@ const ThoughtsList = ({thoughtsList}) => {
         <div>
             <table className="tableDesign">
                 <tr>
-                    <th>What are you thinking?</th>
+                    <th colSpan="2">What are you thinking?</th>
                 </tr>
 
                 {thoughtsList.map(list => (

@@ -4,7 +4,7 @@ import TaskTracker from './components/TaskTracker';
 
 function App() {
   return (
-    <div className="mainDiv" style={{backgroundImage: 'url("/./src/bg.jpg")'}}>
+    <div className="mainDiv">
         <ThoughtsTracker />
         <TaskTracker />
     </div>

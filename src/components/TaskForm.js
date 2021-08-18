@@ -2,27 +2,30 @@ import React from 'react'
 import 'bootstrap/dist/css/bootstrap.css';
 
 const TaskForm = ({subDate, subTask, handleDate, handleTask, handleSubmit, handleDelete}) => {
+
     return (
         <div>
 
+            <h2>To do lists!</h2>
+
             <form>
                 <div className="row">
-                    <div className="col-md-4">
-                        <label>Date:</label>
+                    <div className="col-md-8 d-flex justify-content-end">
+                        <label className="dateText">Date:</label>
                     </div>
-                    <div className="col-md-8">
-                        <input type="date" value={subDate} onChange={handleDate}></input>
+                    <div className="col-md-4 d-flex justify-content-end">
+                        <input type="date" value={subDate}  onChange={handleDate}></input>
                     </div>
 
                     <div className="col-md-12">
-                        <textarea cols="60" rows="5" placeholder="What to do?" value={subTask} onChange={handleTask}></textarea>
+                        <textarea cols="68" rows="4" placeholder="What to do?" value={subTask} onChange={handleTask}></textarea>
                     </div>
 
-                    <div className="col-md-6">
-                        <button type="submit" onClick={handleSubmit} className="placeBtn">Submit</button>
+                    <div className="col-md-6 d-flex justify-content-end">
+                        <button type="submit" onClick={handleSubmit} className="btn btn-primary">Submit</button>
                     </div>
                     <div className="col-md-6">
-                        <button type="button" onClick={handleDelete}>Clear Entries</button>
+                        <button type="button" className="btn btn-secondary" onClick={handleDelete}>Clear Entries</button>
                     </div>
                 </div>
             </form>

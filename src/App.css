@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Gochi+Hand&family=Seaweed+Script&display=swap');
+
 .App {
   text-align: center;
 }
@@ -39,8 +41,8 @@
 
 .boxdiv
 {
-  width: 42%;
-  margin: 40px;
+  width: 48%;
+  margin: 12px;
   padding: 20px;
   float: left;
   border: 3px dashed blueviolet;
@@ -53,6 +55,8 @@ table, tr, th, td
   width: 100%;
   padding: 8px;
   background-color: lightpink;
+  
+  font-family: 'Gochi Hand', cursive;
 }
 
 *
@@ -67,4 +71,27 @@ table, tr, th, td
     width: 100%;
     padding: 5px;
   }
+}
+
+.dateText
+{
+  font-family: 'Seaweed Script', cursive;
+  font-size: x-large;
+}
+
+th
+{
+  text-align: center; 
+  font-size: large;
+}
+
+h2
+{
+  text-align: center;
+  font-family: 'Seaweed Script', cursive;
+}
+
+body
+{
+  background-image: url("/src/bg.jpg");
 }

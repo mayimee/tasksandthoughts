@@ -42,19 +42,19 @@ function ThoughtsTracker() {
 
     return (
         <div className="boxdiv">
-            <ThoughtsForm
-                subDate = {subDate}
-                subThoughts = {subThoughts}
-                handleDate = {handleDate}
-                handleThoughts = {handleThoughts}
-                handleSubmit = {handleSubmit}
-                handleDelete = {handleDelete}
-            />
-
-            <br/>
-            <br/>
-
-            <ThoughtsList thoughtsList={thoughtsEntry}/>
+            <div>
+                <ThoughtsForm
+                    subDate = {subDate}
+                    subThoughts = {subThoughts}
+                    handleDate = {handleDate}
+                    handleThoughts = {handleThoughts}
+                    handleSubmit = {handleSubmit}
+                    handleDelete = {handleDelete}
+                />
+            </div>
+            <div>
+                <ThoughtsList thoughtsList={thoughtsEntry}/>
+            </div>
         </div>
     )
 }

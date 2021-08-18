@@ -42,18 +42,20 @@ function TaskTracker() {
 
     return (
         <div className="boxdiv">
-            <TaskForm 
-                subDate={subDate}
-                subTask={subTask}
-                handleDate={handleDate}
-                handleTask={handleTask}
-                handleSubmit={handleSubmit}
-                handleDelete={handleDelete}
-            />
 
-            <br />
-            <br />
-            <TaskList taskList={taskEntry}/>
+            <div>
+                <TaskForm 
+                    subDate={subDate}
+                    subTask={subTask}
+                    handleDate={handleDate}
+                    handleTask={handleTask}
+                    handleSubmit={handleSubmit}
+                    handleDelete={handleDelete}
+                />
+            </div>
+            <div>
+                <TaskList taskList={taskEntry}/>
+            </div>
         </div>
     )
 }
